@@ -1,0 +1,19 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.grid {
+  background-color: #e6fffd;
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+
+.grid > div {
+  background-color: #aee2ff;
+  border-radius: 10px;
+}

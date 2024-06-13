@@ -1,0 +1,22 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.panel {
+  background-color: #e6fffd;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: 200px;
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+
+.caja {
+  background-color: #aee2ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
